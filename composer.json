@@ -1,0 +1,19 @@
+{
+    "name": "jcuema/seminario_backend",
+    "description": "Apresentação de padrões de projeto",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "jcuema",
+            "email": "jcuema@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "State\\": "src/State/",
+            "Visitor\\": "src/Visitor/"
+        }
+    },
+    "require": {}
+}
